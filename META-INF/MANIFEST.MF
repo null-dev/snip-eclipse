@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Snip-eclipse
+Bundle-SymbolicName: snip-eclipse;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: snip_eclipse.Activator
+Bundle-Vendor: nulldev
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.jsoup;bundle-version="1.7.2",
+ org.apache.commons.io;bundle-version="2.0.1",
+ org.apache.xmlrpc;bundle-version="3.0.0",
+ org.apache.ws.commons.util;bundle-version="1.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
